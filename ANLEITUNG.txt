@@ -1,0 +1,43 @@
+DEINE WEBSITE – SO GEHT'S
+=========================
+
+1) SCHRIFTEN EINFÜGEN (einmalig, 2 Minuten)
+   - Auf fonts.google.com nach "Fraunces" suchen -> "Get font" -> "Download all".
+   - In der ZIP-Datei die beiden Dateien nehmen, die mit "VariableFont" heißen:
+       Fraunces-VariableFont_...ttf         -> umbenennen in: fraunces.ttf
+       Fraunces-Italic-VariableFont_...ttf  -> umbenennen in: fraunces-italic.ttf
+   - Dasselbe mit "DM Sans":
+       DMSans-VariableFont_...ttf           -> umbenennen in: dmsans.ttf
+   - Alle drei Dateien in den Ordner "fonts" legen.
+   (So liegen die Schriften auf deiner eigenen Seite – gut für den Datenschutz.)
+
+2) FOTOS AUSTAUSCHEN
+   Im Ordner "images" die Platzhalter durch deine Fotos ersetzen – mit GENAU
+   denselben Dateinamen:
+       kim.jpg     – dein Hauptfoto (Hochformat)
+       louie.jpg   – Foto mit Louie (quadratisch)
+       alltag.jpg  – Alltag / Lesen (quadratisch)
+       drehen.jpg  – beim Drehen (quadratisch)
+
+3) LINKS UND DATEN EINTRAGEN
+   Die Dateien mit einem Texteditor öffnen (Mac: TextEdit -> Format -> "In reinen
+   Text umwandeln", oder besser das kostenlose Programm "Visual Studio Code").
+   Nach dem Wort ERSETZEN suchen und alles ausfüllen:
+       index.html        – FCTS-Link, Unleashed-Link, Portfolio-Link, E-Mail
+       impressum.html    – Name, Adresse, E-Mail, Telefon
+       datenschutz.html  – deine Datenschutzerklärung (Generator, z. B. eRecht24)
+
+4) ONLINE STELLEN MIT NETLIFY
+   - Kostenloses Konto auf netlify.com anlegen.
+   - "Add new site" -> "Deploy manually" und den GANZEN Ordner "kim-website"
+     ins Fenster ziehen. Fertig – die Seite ist online.
+   - Änderungen später: Ordner einfach neu reinziehen (Deploys -> Drag & Drop).
+
+5) EIGENE DOMAIN
+   - In Netlify: "Domain management" -> "Add a domain".
+   - Entweder die Domain direkt dort kaufen, oder eine bei einem Anbieter
+     (z. B. IONOS, Strato) kaufen und den DNS-Einträgen folgen, die Netlify anzeigt.
+   - HTTPS (das Schloss im Browser) schaltet Netlify automatisch ein.
+
+6) LINK IN DIE INSTA- UND TIKTOK-BIO
+   Den Netlify-Link (bzw. deine Domain) in die Bio setzen.

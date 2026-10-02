@@ -135,6 +135,8 @@ p { margin: 0; }
 .karte-dunkel:hover { color: #fff; }
 .karte-dunkel .tag { background: var(--terrakotta); color: var(--text); }
 .karte-dunkel p { color: #D6E3E5; }
+.karte .weiter-links { display: flex; flex-wrap: wrap; gap: 8px 28px; }
+.karte .weiter-links a { text-decoration: none; color: var(--petrol); }
 .karte-hell { background: #fff; border: 1.5px solid var(--rand); color: var(--text); }
 .karte-hell:hover { color: var(--text); }
 .karte-hell .tag { background: var(--sand); color: var(--terrakotta-text); }
